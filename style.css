@@ -1,0 +1,30 @@
+body  {
+    margin: 0; 
+    padding: 0;
+    text-align: center;
+}
+.calc__inputs input[type="text"] {
+    margin-left: 705px;
+    display: flex;
+    background-color: bisque;
+    border-radius: 10px;
+}
+.calc__inputs label {
+    margin: 10px;
+}
+.knopki {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 710px;
+}
+
+.knopki input, .knopki button {
+    /* margin: 5px; */
+    padding: 5px;
+    background-color: coral;
+    border-radius: 15px;
+}
+.knopki input:hover, .knopki button:hover {
+    background-color:crimson;
+} 
+
